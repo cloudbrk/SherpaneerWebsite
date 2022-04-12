@@ -1,0 +1,30 @@
+main {
+    margin: 1rem;
+    padding-top: 56px;
+}
+
+.peach {
+    background-color: #fcc0c0;
+    padding: 3rem;
+}
+
+.pink {
+    background-color: #ff8ec5;
+    padding: 3rem;
+}
+
+.paper {
+    background-color: #e8eae3;
+    padding: 3rem;
+}
+
+.darkgrey {
+    background-color: #373833;
+    color: #fff;
+    padding: 3rem;
+}
+
+.white {
+    background-color: #fff;
+    padding: 3rem;
+}
