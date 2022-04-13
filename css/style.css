@@ -2,13 +2,19 @@ body {
     background-color: transparent;
 }
 
-.bg-image {
+.bg-header {
     background-image: url("../img/header_home_dark.png");
     position: relative;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+.mini-header {
+    background: linear-gradient(45deg, #fcc0c0ba, #ff8ec5cc), url(../img/forest.jpg) no-repeat top center;
+    max-height: 400px;
+    width: 100%;
 }
 
 .sherparow {
@@ -36,19 +42,15 @@ h3 {
     z-index: 2;
 }
 
-.centered-element {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.teammate {
+    width:100%;
+    max-width: 150px;
+    border-radius: 50%;
 }
 
-.text-right {
-    text-align: right;
-}
-
-.text-left {
-    text-align: left;
+.pledge {
+    max-width: 100%;
+    max-height: 150px;
 }
 
 .peach {
