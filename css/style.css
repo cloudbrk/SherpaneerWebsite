@@ -1,34 +1,81 @@
 body {
-    background-color: purple;
+    background-color: transparent;
 }
 
-main {
-    margin: 1rem;
-    padding-top: 56px;
+.bg-image {
+    background-image: url("../img/header_home_dark.png");
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.sherparow {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    text-align: justify;
+}
+
+.paper-bg h1,
+h2,
+h3 {
+    color: #ff8ec5;
+}
+
+.peach-bg h1,
+h2,
+h3 {
+    color: #ff8ec5;
+}
+
+.headsect {
+    min-height: 450px;
+    z-index: 2;
+}
+
+.centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .peach {
-    background-color: #fcc0c0;
-    padding: 3rem;
+    color: #fcc0c0;
 }
 
 .pink {
-    background-color: #ff8ec5;
+    color: #ff8ec5;
+}
+
+.peach-bg {
+    background-color: #fef9f9;
     padding: 3rem;
 }
 
-.paper {
+.paper-bg {
     background-color: #e8eae3;
     padding: 3rem;
 }
 
-.darkgrey {
+.dark-bg {
     background-color: #373833;
     color: #fff;
     padding: 3rem;
 }
 
-.white {
-    background-color: #fff;
+.light-bg {
+    background-color: #f0f2eb;
     padding: 3rem;
 }
