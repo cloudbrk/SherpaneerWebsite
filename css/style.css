@@ -12,7 +12,7 @@ body {
 }
 
 .mini-header {
-    background: linear-gradient(45deg, #fcc0c0ba, #ff8ec5cc), url(../img/forest.jpg) no-repeat top center;
+    background: linear-gradient(45deg, #fcc0c0bb, #ff8ec5bb), url(../img/forest.jpg) no-repeat top center;
     max-height: 400px;
     width: 100%;
 }
@@ -43,9 +43,14 @@ h3 {
 }
 
 .teammate {
-    width:100%;
+    width: 100%;
     max-width: 150px;
     border-radius: 50%;
+}
+
+.cert {
+    width: 100%;
+    max-width: 140px;
 }
 
 .pledge {
