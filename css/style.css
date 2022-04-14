@@ -17,6 +17,13 @@ body {
     width: 100%;
 }
 
+.hire-card {
+    background: linear-gradient(90deg, #373833aa, #373833aa), url(../img/team_sunset.png) no-repeat center center;
+    width: 100%;
+    max-width: 480px;
+    min-height: 300px;
+}
+
 .sherparow {
     width: 80%;
     max-width: 1080px;
