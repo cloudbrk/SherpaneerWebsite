@@ -6,6 +6,21 @@ body {
     background-color: transparent;
 }
 
+.nav-special {
+    background-color: rgba(255, 255, 255, .55);
+    /* background-color: #ff8ec5; */
+    /* color: #000000; */
+    border-radius: 1rem;
+}
+
+.nav-link-special {
+    display: block;
+    padding: .5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+}
+
 .bg-header {
     background-image: url("../img/header_home_dark.png");
     position: relative;
@@ -13,22 +28,37 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 .mini-header {
-    background: linear-gradient(45deg, #fcc0c0bb, #ff8ec5bb), url(../img/forest.jpg) no-repeat top center;
+    /* Default if picture doesn't load */
+    background: linear-gradient(45deg, #000000cc, #373833aa);
     max-height: 400px;
     width: 100%;
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
-.hire-header {
-    background: linear-gradient(90deg, #000000aa, #373833aa), url(../img/team_sunset.png) no-repeat center center;
-    max-height: 400px;
-    width: 100%;
-    padding-left: 3rem;
-    padding-right: 3rem;
+.career-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_sunset.png) no-repeat center center;
+}
+
+.study-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_study.jpg) no-repeat center center;
+}
+
+.services-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_svc.jpg) no-repeat center center;
+}
+
+.experience-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_exp.jpg) no-repeat center center;
+}
+
+.about-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_about.jpg) no-repeat top center;
 }
 
 .sherparow {
@@ -43,6 +73,12 @@ body {
     .sherparow {
         width: 100%;
     }
+}
+
+.hdr-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .casestudy {
