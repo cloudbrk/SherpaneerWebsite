@@ -8,15 +8,13 @@ body {
 
 .nav-special {
     background-color: rgba(255, 255, 255, .55);
-    /* background-color: #ff8ec5; */
-    /* color: #000000; */
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .nav-link-special {
     display: block;
     padding: .5rem 1rem;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
@@ -43,22 +41,27 @@ body {
 
 .career-header {
     background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_sunset.png) no-repeat center center;
+    background-size: cover;
 }
 
 .study-header {
     background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_study.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .services-header {
     background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_svc.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .experience-header {
     background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_exp.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .about-header {
     background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_about.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 .sherparow {
