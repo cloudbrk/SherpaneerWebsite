@@ -9,6 +9,15 @@ if (isset($_POST['submit'])) {
     $connectType = $_POST['connectType'];
     $emailBody = $_POST['emailBody'];
     $fileUpload = $_POST['fileUpload'];
+
+    $mailTo = "charlien@sherpaneer.com"
+    $headers = "From: ".$emailFrom;
+    $txt = "You have a message from " $firstName.$lastName"./n/n".$emailBody;
+
+    mail($mailTo, $firstName, $txt, $headers);
+
+    header("Location: index.html?MessageSent");
+
 }
 
 ?>
