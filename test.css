@@ -7,10 +7,10 @@
 }
 
 .red {
-    width: 49%;
+    width: 100%;
     height: 300px;
     background-color: red;
-    display: inline-block;
+    /* display: inline-block; */
     z-index: 1;
 }
 

@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="img/icon_logo.ico" />
 
     <meta name="thumbnail" content="http://www.sherpaneer.com/img/logo-black-text.png" />
-    <meta name="description" content="Sherpaneer, Leading the Way Forward. Your one stop shop for Salesforce Consulting.">
+    <meta name="description" content="As your boutique Salesforce Partner, we help you implement the right way, the first time. Leverage our women- owned diverse, nimble, and agile Team To help improve your business. Sherpaneer - Leading The Way Forward.">
     <meta name="keywords" content="Sherpaneer, Salesforce, Salesforce Implementation, Salesforce Consulting, Salesforce Consultant, CPQ, CPQ Implementation, CPQ Consulting, CPQ Consulant">
 
     <meta property="og:image" content="https://www.sherpaneer.com/img/logo-black-text.png">
@@ -19,6 +19,8 @@
     <link href="css/style.css" rel="stylesheet" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.lang.en.min.js"></script>
 
     <title>Sherpaneer</title>
 </head>
@@ -97,6 +99,9 @@
                                     <a href="salesforce.html#top" class="dropdown-item">Salesforce Partner</a>
                                 </li>
                                 <li>
+                                    <a href="salesforce.html#slack" class="dropdown-item">Slack Partner</a>
+                                </li>
+                                <li>
                                     <a href="salesforce.html#certs" class="dropdown-item">Certifications</a>
                                 </li>
                                 <li>
@@ -111,13 +116,19 @@
                             <a class="nav-link dropdown-toggle" id="navbarDropdownService" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services <i class="small bi bi-chevron-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownService">
                                 <li>
-                                    <a href="services.html#top" class="dropdown-item">Advisory Services</a>
+                                    <a href="services.html#top" class="dropdown-item">CPQ/Revenue Cloud</a>
+                                </li>
+                                <li>
+                                    <a href="services.html#advisory" class="dropdown-item">Advisory Services</a>
                                 </li>
                                 <li>
                                     <a href="services.html#cm" class="dropdown-item">Change Management</a>
                                 </li>
                                 <li>
                                     <a href="services.html#manda" class="dropdown-item">Mergers &amp; Acquisitions</a>
+                                </li>
+                                <li>
+                                    <a href="services.html#sox" class="dropdown-item">Salesforce SOX</a>
                                 </li>
                                 <li>
                                     <a href="services.html#health" class="dropdown-item">Health Check</a>
@@ -201,8 +212,10 @@
                     <img src="img/full_logo.png" style="width: 60%; max-height: 200px" />
                 </p>
                 <p class="lead fw-bold mb-4 text-white">
-                    Sherpaneer brings companies strategic vision to life utilizing a focus on business process transformation and advisory expertise, allowing clients to focus on achieving their organizational goals.
+                    <!-- Sherpaneer brings companies strategic vision to life utilizing a focus on business process transformation and advisory expertise, allowing clients to focus on achieving their organizational goals. -->
+                    As your boutique Salesforce Partner, we help you implement the right way, the first time. Leverage our women- owned diverse, nimble, and agile Team To help improve your business. Sherpaneer - Leading The Way Forward.
                 </p>
+
                 <div class="d-grid gap-3 d-sm-flex justify-content-xl-start">
                     <a class="btn btn-secondary btn-lg px-4 me-sm-3" href="https://us14.list-manage.com/contact-form?u=d234726d802adbb5e2358ac15&form_id=4d6515905cd5c66957dbde93cd9eaca3" target="_blank">Connect With Us</a>
                     <a class="btn btn-light btn-lg px-4" href="index.html#whyus">Learn More</a>
@@ -255,7 +268,7 @@
             <div class="sherparow">
                 <h1 id="inclusion">Diversity &amp; Inclusion</h1>
                 <p>
-                    Sherpaneer is a high-touch boutique consulting firm specializing in making more human-centric, inclusive work environments. Our team leverages decades of academic and professional experience to bring you tailored, data-driven strategies and learning solutions.
+                    We balance our time making a more human-centric, inclusive work environments in addition to delivery exceptional products. Our team leverages decades of academic and professional experience to bring you tailored, data-driven strategies and learning solutions.
                     Diversity is not an end in and of itself. At Sherpaneer, we believe diversity, equity and inclusion are business imperatives that can drive successful performance and an improved bottom line.
                 </p>
             </div>
@@ -267,13 +280,54 @@
                 <h1 id="team">The Sherpaneer Team</h1>
                 <div class="row py-4 pb-0 justify-content-center text-center">
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
-                        <img src="img/team-ferny.jpeg" class="teammate" />
-                        <br /> Ferny Bengali<br /><span class="text-muted small">Managing Director</span>
+                        <a href="#ferny" class="text-dark" data-bs-toggle="modal" data-bs-target="#fernyModal">
+                            <img src="img/team-ferny.jpeg" class="teammate" />
+                            <br /> Ferny Bengali<br /><span class="text-muted small">Managing Director</span>
+                        </a>
+                        <div class="modal fade" id="fernyModal" tabindex="-1" aria-labelledby="fernyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="fernyModalLabel">Ferny Bengali</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Ferny owes me copy for this section
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
-                        <img src="img/team-liz.jpeg" class="teammate" />
-                        <br /> Liz Beckmeier<br /><span class="text-muted small">Managing Director</span>
+                        <a href="#liz" class="text-dark" data-bs-toggle="modal" data-bs-target="#lizModal">
+                            <img src="img/team-liz.jpeg" class="teammate" />
+                            <br /> Liz Beckmeier<br /><span class="text-muted small">Managing Director</span>
+                        </a>
+                        <div class="modal fade" id="lizModal" tabindex="-1" aria-labelledby="lizModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="lizModalLabel">Liz Beckmeier</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Ferny owes me copy for this section
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <hr>
+                <div class="row py-4 pb-0 justify-content-center text-center">
                     <div class="col-6 col-md-4 col-lg-3 pb-4">
                         <img src="img/team-lawrence.jpeg" class="teammate" />
                         <br /> Lawrence Lam<br /><span class="text-muted small">Salesforce Architect</span>
@@ -306,6 +360,22 @@
                         <img src="img/team-rebecca.jpeg" class="teammate" />
                         <br /> Rebecca Siddiqi<br /><span class="text-muted small">Management Consultant</span>
                     </div>
+                    <div class="col-6 col-md-4 col-lg-3 pb-4">
+                        <img src="img/team-nathanb.jpeg" class="teammate" />
+                        <br /> Nathan Bandong<br /><span class="text-muted small">Management Consultant</span>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 pb-4">
+                        <img src="img/team-salwa.jpeg" class="teammate" />
+                        <br /> Salwa Khan<br /><span class="text-muted small">Management Consultant</span>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 pb-4">
+                        <img src="img/team-adina.jpg" class="teammate" />
+                        <br /> Adina Odom<br /><span class="text-muted small">Management Consultant</span>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 pb-4">
+                        <img src="img/team-amna.jpg" class="teammate" />
+                        <br /> Amna Siddiqui<br /><span class="text-muted small">Management Consultant</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -335,14 +405,17 @@
                     If you have a corporate social responsibility request (in-kind or monetary donations, sponsorships, volunteer time etc.), please <a href="mailto: info@sherpaneer.com?subject=Pledge Partner" class="pink">contact us.</a>
                 </p>
                 <div class="row text-center align-items-center">
-                    <div class="col col-4">
+                    <div class="col col-3">
                         <a href="https://mozaicdmv.org/" target="_blank"><img src="img/mozaic_logo.png" class="pledge" /></a>
                     </div>
-                    <div class="col col-4">
+                    <div class="col col-3">
                         <a href="https://foodforothers.org/mission/" target="_blank"><img src="img/ffo_logo.png" class="pledge" /></a>
                     </div>
-                    <div class="col col-4">
+                    <div class="col col-3">
                         <a href="http://www.braws.org/" target="_blank"><img src="img/braws_logo.png" class="pledge" /></a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="https://hoof-beats.com/" target="_blank"><img src="img/HoofbeatsLogo.png" class="pledge" /></a>
                     </div>
                 </div>
             </div>
@@ -379,6 +452,9 @@
                                 <a href="salesforce.html#partner" class="nav-link p-0">Salesforce Partner</a>
                             </li>
                             <li class="nav-item mb-2">
+                                <a href="salesforce.html#slack" class="nav-link p-0">Slack Partner</a>
+                            </li>
+                            <li class="nav-item mb-2">
                                 <a href="salesforce.html#certs" class="nav-link p-0">Certifications</a>
                             </li>
                             <li class="nav-item mb-2">
@@ -393,6 +469,9 @@
                         <h6>Services</h6>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2">
+                                <a href="services.html#cpqrev" class="nav-link p-0">CPQ/Revenue Cloud</a>
+                            </li>
+                            <li class="nav-item mb-2">
                                 <a href="services.html#advisory" class="nav-link p-0">Advisory Services</a>
                             </li>
                             <li class="nav-item mb-2">
@@ -400,6 +479,9 @@
                             </li>
                             <li class="nav-item mb-2">
                                 <a href="services.html#manda" class="nav-link p-0">Mergers &amp; Acquisitions</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="services.html#sox" class="nav-link p-0">Salesforce SOX</a>
                             </li>
                             <li class="nav-item mb-2">
                                 <a href="services.html#health" class="nav-link p-0">Health Check</a>

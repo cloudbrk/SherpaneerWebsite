@@ -149,3 +149,48 @@ h3 {
 .light-bg {
     background-color: #f0f2eb;
 }
+
+.case {
+    min-height: 300px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.case-eab {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background-image: url("../img/case2.png");
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    margin: 0px;
+    z-index: 1;
+}
+
+.case-over {
+    width: 800px;
+    height: 300px;
+    opacity: 0.9;
+    z-index: 2;
+    display: inline;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 400px);
+    text-align: center;
+}
+
+.case-over-text {
+    width: 700px;
+    height: 300px;
+    z-index: 2;
+    display: inline;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 400px);
+    text-align: center;
+    margin: 50px;
+}
