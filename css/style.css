@@ -1,3 +1,9 @@
+/* Amna's Colors
+blue #052b3e
+white #ffffff
+pink #f4cccc
+grey #e8eae3 */
+
 html {
     scroll-padding-top: 60px;
 }
@@ -93,13 +99,16 @@ body {
 .paper-bg h1,
 h2,
 h3 {
-    color: #ff8ec5;
+    /* color: #ff8ec5; */
+    color: #ffcccc;
 }
 
 .peach-bg h1,
 h2,
 h3 {
-    color: #ff8ec5;
+    /* color: #ff8ec5; */
+    /* color: #ffcccc; */
+    color: #052b3e;
 }
 
 .headsect {
@@ -134,11 +143,14 @@ h3 {
 }
 
 .peach-bg {
-    background-color: #fef9f9;
+    /* background-color: #fef9f9; */
+    background-color: #e8eae3;
+    color: #05263e
 }
 
 .paper-bg {
-    background-color: #e8eae3;
+    /* background-color: #e8eae3; */
+    background-color: #052b3e;
 }
 
 .dark-bg {
