@@ -127,6 +127,7 @@ h3 {
 .cert {
     width: 100%;
     max-width: 140px;
+    margin: auto;
 }
 
 .pledge {

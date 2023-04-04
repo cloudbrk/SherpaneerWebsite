@@ -2942,7 +2942,7 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #000;
     background-color: #fcc0c0;
     border-color: #fcc0c0
 }
