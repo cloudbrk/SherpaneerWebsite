@@ -75,6 +75,11 @@ body {
     background-size: cover;
 }
 
+.quickstart-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/head_quick.jpg) no-repeat top center;
+    background-size: cover;
+}
+
 .sherparow {
     width: 80%;
     max-width: 1080px;
