@@ -25,6 +25,10 @@ body {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
 
+.nav-link-special:hover {
+    color: #000;
+}
+
 .bg-header {
     background-image: url("../img/header_home_dark.png");
     position: relative;
@@ -113,13 +117,11 @@ h3 {
     color: #ffcccc;
 }
 
-.sherpagrey-bg h1,
+/* .sherpagrey-bg h1,
 h2,
 h3 {
-    /* color: #ff8ec5; */
-    /* color: #ffcccc; */
     color: #052b3e;
-}
+} */
 
 .headsect {
     min-height: 450px;
