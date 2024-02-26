@@ -84,6 +84,11 @@ body {
     background-size: cover;
 }
 
+.sflow-header {
+    background: linear-gradient(45deg, #000000aa, #373833aa), url(../img/flow_logo.png) no-repeat center center;
+    background-size: cover;
+}
+
 .sherparow {
     width: 80%;
     max-width: 1080px;
