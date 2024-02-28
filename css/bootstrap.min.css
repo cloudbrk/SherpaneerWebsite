@@ -641,7 +641,7 @@ progress {
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 @media (min-width:576px) {
@@ -5682,7 +5682,7 @@ fieldset:disabled .btn {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    outline: 0
+    outline: 0;
 }
 
 .modal-dialog {
@@ -5727,7 +5727,8 @@ fieldset:disabled .btn {
 .modal-dialog-centered {
     display: flex;
     align-items: center;
-    min-height: calc(100% - 1rem)
+    min-height: calc(100% - 1rem);
+    max-width: 990px;
 }
 
 .modal-content {
